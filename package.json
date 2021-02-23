@@ -1,19 +1,17 @@
 {
   "name": "nuxtjs-buildpacks-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
-    "postinstall": "nuxt-ts build",
     "generate": "nuxt-ts generate",
     "test": "jest"
   },
   "dependencies": {
     "@nuxt/content": "^1.11.1",
     "@nuxt/typescript-runtime": "^2.0.1",
-    "@nuxt/typescript-build": "^2.0.4",
     "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/vuetify": "^1.11.3",
